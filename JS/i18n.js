@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "oil_painting": "油画",
                     "something_else": "其他",
                     "about": "About",
-                    "about_text": "列贝，广州长大，现居东京。",
+                    "about_text": "列贝，广州长大，现居东京",
                     "about_text2": "纯艺·观鸟·人类学，持续航行的船",
                     "about_text3": "XMU(Christmas University)2019-2023",
                     "timeline_title": "时间线",
