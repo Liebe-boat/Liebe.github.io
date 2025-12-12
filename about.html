@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LIEBE'S FUNE</title>
-    <meta name="description" content="水兵リーベ、僕の舟" />
+    <title>About</title>
+    <meta name="description" content="水兵リーベ、僕の舟。" />
 
     <!-- Preload hero background to reduce white flash -->
     <link rel="preload" as="image" href="./image/Primitive_Lifebg.jpg" />
@@ -59,11 +59,11 @@
             </div>
         </div>
         <div class="mobile-quick-nav">
-            <a href="#" class="nav-link" data-name="Japanese_Painting" data-i18n="japanese_painting">Japanese Painting</a>
-            <a href="#" class="nav-link" data-name="print" data-i18n="print">Print</a>
-            <a href="#" class="nav-link" data-name="water_color" data-i18n="water_color">Watercolor</a>
-            <a href="#" class="nav-link" data-name="oil_painting" data-i18n="oil_painting">Oil painting</a>
-            <a href="#" class="nav-link" data-name="something_else" data-i18n="something_else">Something else</a>
+            <a href="index.html" class="nav-link" data-name="Japanese_Painting" data-i18n="japanese_painting">Japanese Painting</a>
+            <a href="index.html" class="nav-link" data-name="print" data-i18n="print">Print</a>
+            <a href="index.html" class="nav-link" data-name="water_color" data-i18n="water_color">Watercolor</a>
+            <a href="index.html" class="nav-link" data-name="oil_painting" data-i18n="oil_painting">Oil painting</a>
+            <a href="index.html" class="nav-link" data-name="something_else" data-i18n="something_else">Something else</a>
             <a href="About.html" data-i18n="about">About</a>
         </div>
         <div class="mobile-lang-switcher">
@@ -83,15 +83,15 @@
         <div class="offcanvas-body">
             <nav aria-label="モバイルナビ">
                 <ul class="nav flex-column">
-                    <li class="nav-item"><a href="#" class="nav-link" data-name="Japanese_Painting"
+                    <li class="nav-item"><a href="index.html" class="nav-link" data-name="Japanese_Painting"
                             data-i18n="japanese_painting">Japanese Painting</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-name="print" data-i18n="print">Print</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-name="water_color"
+                    <li class="nav-item"><a href="index.html" class="nav-link" data-name="print" data-i18n="print">Print</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link" data-name="water_color"
                             data-i18n="water_color">Watercolor</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-name="oil_painting"
+                    <li class="nav-item"><a href="index.html" class="nav-link" data-name="oil_painting"
                             data-i18n="oil_painting">Oil
                             painting</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" data-name="something_else"
+                    <li class="nav-item"><a href="index.html" class="nav-link" data-name="something_else"
                             data-i18n="something_else">Something else</a></li>
                     <li class="nav-item"><a class="nav-link" href="About.html" data-i18n="about">About</a></li>
                 </ul>
@@ -114,11 +114,13 @@
         </div>
         <nav class="nav-menu" aria-label="Main navigation">
             <ul class="nav flex-column text-center">
-                <li><a href="#" class="nav-link" data-name="Japanese_Painting" data-i18n="japanese_painting">Japanese Painting</a></li>
-                <li><a href="#" class="nav-link" data-name="print" data-i18n="print">Print</a></li>
-                <li><a href="#" class="nav-link" data-name="water_color" data-i18n="water_color">Watercolor</a></li>
-                <li><a href="#" class="nav-link" data-name="oil_painting" data-i18n="oil_painting">Oil painting</a></li>
-                <li><a href="#" class="nav-link" data-name="something_else" data-i18n="something_else">Something else</a></li>
+                <li><a href="index.html" class="nav-link" data-name="Japanese_Painting" data-i18n="japanese_painting">Japanese
+                        Painting</a></li>
+                <li><a href="index.html" class="nav-link" data-name="print" data-i18n="print">Print</a></li>
+                <li><a href="index.html" class="nav-link" data-name="water_color" data-i18n="water_color">Watercolor</a></li>
+                <li><a href="index.html" class="nav-link" data-name="oil_painting" data-i18n="oil_painting">Oil painting</a></li>
+                <li><a href="index.html" class="nav-link" data-name="something_else" data-i18n="something_else">Something
+                        else</a></li>
                 <li><a href="About.html" data-i18n="about">About</a></li>
             </ul>
 
@@ -133,13 +135,44 @@
     </header>
 
     <!-- ===== Main Content ===== -->
-    <main class="main-content container-fluid py-4">
-        <section class="gallery">
-            <div class="row g-4" id="gallery-content">
+    <main class="about-page">
+        <section class="about-hero">
+            <div>
+                <h2 class="cabin-sketch-bold">About me</h2>
+                <p data-i18n="about_text">列贝，广州长大，现居东京。</p>
+                <p data-i18n="about_text2">观鸟 · 人类学 · 纯艺，持续航行的船。</p>
+                <p data-i18n="about_text3">XMU(Chrismas University)2019-2023</p>
+            </div>
+            <img src="image/私.jpg" alt="私" class="about-portrait">
+        </section>
+
+        <section class="about-extra">
+            <h3 class="cabin-sketch-bold" data-i18n="timeline_title">Timeline</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year" data-i18n="timeline_group_title">グループ展</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <p class="timeline-text" data-i18n="timeline_2023">厦門大学卒業展</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <p class="timeline-text" data-i18n="timeline_2024_morning">「Morning Glow 」</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <p class="timeline-text" data-i18n="timeline_2024_voorpret">「voorpret」ユニコムプラザ相模原、相模原</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2024</div>
+                    <p class="timeline-text" data-i18n="timeline_2024_ritto">「立冬」</p>
+                </div>
             </div>
         </section>
-    </main>           
-              
+    </main>
+      
+
     <!-- ===== Footer ===== -->
     <footer class="footer container-fluid text-center py-4 mt-4">
         <div class="footer-sns row justify-content-center">
@@ -217,9 +250,7 @@
             },
         });
     </script>
-    
-    <!-- Gellery JS -->
-    <script src="./JS/gallery.js"></script>
+    <script src="./JS/i18n.js"></script>
 </body>
 
 </html>
