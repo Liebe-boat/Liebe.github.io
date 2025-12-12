@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "about_text": "広州育ち、東京在住",
                     "about_text2": "美術・バードウォッチング・人類学",
                     "about_text3": "XMU(Chrismas University)2019-2023",
-                    "timeline_title": "タイムライン",
+                    "timeline_title": "Timeline",
                     "timeline_group_title": "グループ展",
                     "timeline_2023": "2023年　厦門大学卒業展",
                     "timeline_2024_morning": "2024年　「Morning Glow 」",
