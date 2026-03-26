@@ -1,6 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     const galleryData = {
       japanese_painting: [
+        { src: "image/inside.jpg", alt: "inside", caption: "inside" },
+        { src: "image/木の言語.jpg", alt: "木の言語", caption: "木の言語" },
+        { src: "image/歯のダンス.jpg", alt: "歯のダンス", caption: "歯のダンス" },
         { src: "image/絡まる.jpg", alt: "karamaru", caption: "絡まる" },
         { src: "image/seimei.jpg", alt: "seimei", caption: "生命は叫び" },
         { src: "image/鳴き.jpg", alt: "naki", caption: "鳴き" },
@@ -9,7 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/ゆらゆら.jpg", alt: "ゆらゆら", caption: "ゆらゆら" },
         { src: "image/夢を覆す.jpg", alt: "夢を覆す", caption: "夢を覆す" },
         { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang"},
-        { src: "image/vague.jpg", alt: "vague", caption: "vague" }
+        { src: "image/vague.jpg", alt: "vague", caption: "vague" },
+        { src: "image/古着.jpg", alt: "古着", caption: "古着" }
       ],
       water_color: [
         { src: "image/寂寞的夜晚.jpg", alt: "寂しい夜", caption: "寂しい夜" },
@@ -36,7 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
       ],
       something_else: [
         { src:"image/梨の妖精.jpg", alt:"梨の妖精",caption:"梨の妖精"},
-        { src:"image/xiangsi.png", alt:"相思鳥",caption:"相思鳥"}
+        { src:"image/xiangsi.png", alt:"相思鳥",caption:"相思鳥"},
+        { src:"image/黒い太陽.jpg", alt:"黒い太陽",caption:"黒い太陽"}
       ]
     };
   
@@ -74,6 +79,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   
     const initialImages = [
+        { src: "image/inside.jpg", alt: "inside", caption: "inside" },
+        { src: "image/木の言語.jpg", alt: "木の言語", caption: "木の言語" },
         { src: "image/絡まる.jpg", alt: "karamaru", caption: "絡まる" },
         { src: "image/seimei.jpg", alt: "seimei", caption: "生命は叫び" },
         { src: "image/鳴き.jpg", alt: "naki", caption: "鳴き" },
