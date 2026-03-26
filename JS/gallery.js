@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const galleryData = {
       japanese_painting: [
         { src: "image/inside.jpg", alt: "inside", caption: "inside" },
+        { src: "image/vague.jpg", alt: "vague", caption: "vague" },
         { src: "image/木の言語.jpg", alt: "木の言語", caption: "木の言語" },
         { src: "image/歯のダンス.jpg", alt: "歯のダンス", caption: "歯のダンス" },
         { src: "image/絡まる.jpg", alt: "karamaru", caption: "絡まる" },
@@ -12,7 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/ゆらゆら.jpg", alt: "ゆらゆら", caption: "ゆらゆら" },
         { src: "image/夢を覆す.jpg", alt: "夢を覆す", caption: "夢を覆す" },
         { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang"},
-        { src: "image/vague.jpg", alt: "vague", caption: "vague" },
         { src: "image/古着.jpg", alt: "古着", caption: "古着" }
       ],
       water_color: [
@@ -80,6 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     const initialImages = [
         { src: "image/inside.jpg", alt: "inside", caption: "inside" },
+        { src: "image/vague.jpg", alt: "vague", caption: "vague" },
         { src: "image/木の言語.jpg", alt: "木の言語", caption: "木の言語" },
         { src: "image/絡まる.jpg", alt: "karamaru", caption: "絡まる" },
         { src: "image/seimei.jpg", alt: "seimei", caption: "生命は叫び" },
@@ -91,8 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/蹌踉.jpg", alt: "yume", caption: "蹌踉" },
         { src: "image/ゆらゆら.jpg", alt: "ゆらゆら", caption: "ゆらゆら" },
         { src: "image/夢を覆す.jpg", alt: "夢を覆す", caption: "夢を覆す" },
-        { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang"},
-        { src: "image/vague.jpg", alt: "vague", caption: "vague" }
+        { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang"}
     ];
     renderGallery(initialImages);
   
