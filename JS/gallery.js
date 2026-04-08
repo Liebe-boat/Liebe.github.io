@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
       something_else: [
         { src:"image/梨の妖精.jpg", alt:"梨の妖精",caption:"梨の妖精", year: "2024", size: "changeable"},
         { src:"image/xiangsi.png", alt:"相思鳥",caption:"相思鳥", year: "2022", size: "changeable"},
-        { src:"image/黒い太陽.jpg", alt:"黒い太陽",caption:"黒い太陽", year: "2024", size: "227 x 158"}
+        { src:"image/黒い太陽.jpg", alt:"黒い太陽",caption:"黒い太陽", year: "2024", size: "227 x 158mm"}
       ]
     };
   
