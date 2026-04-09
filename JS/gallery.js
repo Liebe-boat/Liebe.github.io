@@ -13,7 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/夢を覆す.jpg", alt: "夢を覆す", caption: "夢を覆す", year: "2023", size: "400 x 300mm" },
         { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang", year: "2024", size: " " },
         { src: "image/歯のダンス.jpg", alt: "歯のダンス", caption: "歯のダンス", year: "2024", size: "227 x 158mm" },
-        { src: "image/古着.jpg", alt: "古着", caption: "古着", year: "2025", size: "70 x 100mm" }
+        { src: "image/古着.jpg", alt: "古着", caption: "古着", year: "2025", size: "70 x 100mm" },
+        { src: "image/眠い.png", alt: "眠い", caption: "眠い", year: "2025", size: "150 x 950mm" },
+        { src: "image/a dream.png", alt: "a dream", caption: "a dream", year: "2025", size: "227 x 250mm" }
       ],
       water_color: [
         { src: "image/寂寞的夜晚.jpg", alt: "寂しい夜", caption: "寂しい夜", year: "2023", size: "185 x 131mm" },
@@ -85,8 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
   
     const initialImages = [
         { src: "image/inside.jpg", alt: "inside", caption: "inside", year: "2025", size: "180 x 140mm" },
-        { src: "image/vague.jpg", alt: "vague", caption: "vague", year: "2024", size: "273 x 190mm" },
-        { src: "image/木の言語.jpg", alt: "木の言語", caption: "木の言語", year: "2024", size: "227 x 158mm" },
+        { src: "image/a dream.png", alt: "a dream", caption: "a dream", year: "2025", size: "227 x 250mm" },
+        { src: "image/眠い.png", alt: "眠い", caption: "眠い", year: "2025", size: "150 x 950mm" },
         { src: "image/絡まる.jpg", alt: "karamaru", caption: "絡まる", year: "2023", size: "250 x 250mm" },
         { src: "image/seimei.jpg", alt: "seimei", caption: "生命は叫び", year: "2023 ", size: "250 x 250mm" },
         { src: "image/鳴き.jpg", alt: "naki", caption: "鳴き", year: "2023", size: "250 x 250mm" },
@@ -97,7 +99,9 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/蹌踉.jpg", alt: "yume", caption: "蹌踉", year: "2023", size: "250 x 250mm" },
         { src: "image/ゆらゆら.jpg", alt: "ゆらゆら", caption: "ゆらゆら", year: "2023", size: "250 x 250mm" },
         { src: "image/夢を覆す.jpg", alt: "夢を覆す", caption: "夢を覆す", year: "2023", size: "400 x 300mm" },
-        { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang", year: "2024", size: " "}
+        { src: "image/gulang.jpg", alt:"Voice of Gulang",caption:"Voice of Gulang", year: "2024", size: " "},
+        { src: "image/vague.jpg", alt: "vague", caption: "vague", year: "2024", size: "273 x 190mm" },
+        { src: "image/木の言語.jpg", alt: "木の言語", caption: "木の言語", year: "2024", size: "227 x 158mm" }
     ];
     renderGallery(initialImages);
   
