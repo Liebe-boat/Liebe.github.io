@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "oil_painting": "Oil Painting",
                     "something_else": "Something Else",
                     "about": "About",
-                    "about_text": "Liebe, grew up in Guangzhou, living in Tokyo.",
+                    "about_text": "Liebe, grown up in Guangzhou, living in Tokyo.",
                     "about_text2": "Fine art · Birding · Anthropology",
                     "about_text3": "XMU 2019-2023",
                     "timeline_title": "Timeline",
