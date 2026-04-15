@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       water_color: [
         { src: "image/寂寞的夜晚.jpg", alt: "寂しい夜", caption: "寂しい夜", year: "2023", size: "185 x 131mm" },
         { src: "image/夜间飞行.jpg", alt: "fly", caption: "夜間飛行", year: "2023", size: "185 x 131mm" },
-        { src: "image/夜间飞行2.jpg", alt: "fly2", caption: "夜間飛行2", year: "2023", size: "185 x 131mm" },
+        { src: "image/夜间飞行2.jpg", alt: "fly2", caption: "夜間飛行2", year: "2024", size: "185 x 131mm" },
         { src: "image/一本の樹.jpg", alt: "一本の樹", caption: "一本の樹", year: "2024", size: "185 x 131mm" },
         { src: "image/夕燒.jpg", alt: "夕燒", caption: "夕燒", year: "2023", size: "185 x 131mm" },
         { src: "image/所沢の出口.jpg", alt: "所沢の出口", caption: "所沢の出口", year: "2023", size: "185 x 131mm" }
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/鳴き.jpg", alt: "naki", caption: "鳴き", year: "2023", size: "250 x 250mm" },
         { src: "image/寂寞的夜晚.jpg", alt: "night", caption: "寂しい夜", year: "2023", size: "185 x 131mm" },
         { src: "image/夜间飞行.jpg", alt: "fly", caption: "夜間飛行", year: "2023", size: "185 x 131mm" },
-        { src: "image/夜间飞行2.jpg", alt: "fly 2", caption: "夜間飛行2", year: "2023", size: "185 x 131mm" },
+        { src: "image/夜间飞行2.jpg", alt: "fly 2", caption: "夜間飛行2", year: "2024", size: "185 x 131mm" },
         { src: "image/湿り.jpg", alt: "tree", caption: "湿り", year: "2023", size: "250 x 250mm" },
         { src: "image/蹌踉.jpg", alt: "yume", caption: "蹌踉", year: "2023", size: "250 x 250mm" },
         { src: "image/ゆらゆら.jpg", alt: "ゆらゆら", caption: "ゆらゆら", year: "2023", size: "250 x 250mm" },
