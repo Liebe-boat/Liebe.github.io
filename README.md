@@ -1,1 +1,1 @@
-# https://liebe-boat.github.io/Liebe.github.io/
+# https://liebesboat.com/
