@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 translation: {
                     "japanese_painting": "Japanese Painting",
                     "print": "Print",
-                    "water_color": "Water Color",
+                    "water_color": "水彩",
                     "oil_painting": "Oil Painting",
                     "something_else": "Something Else",
                     "about": "About",
