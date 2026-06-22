@@ -851,6 +851,11 @@ h1,h2,h3,.site-title h1 {
     color: var(--nav-hover);
 }
 
+.lang-ja .mobile-quick-nav a,
+.lang-zh .mobile-quick-nav a {
+    height: 3.47rem;
+}
+
 .mobile-quick-nav::-webkit-scrollbar {
     display: none;
 }
