@@ -85,6 +85,19 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         }
       });
+
+      // Prefetch originals in background after render
+      const prefetch = () => {
+        images.forEach(item => {
+          const img = new Image();
+          img.src = item.src;
+        });
+      };
+      if ("requestIdleCallback" in window) {
+        requestIdleCallback(prefetch, { timeout: 3000 });
+      } else {
+        setTimeout(prefetch, 1000);
+      }
     }
   
     const initialImages = [
