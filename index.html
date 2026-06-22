@@ -42,10 +42,7 @@
 </head>
 
 <body>
-    <div class="loading-bar">
-        <div class="loading-bar__inner"></div>
-    </div>
-    <!-- ===== Header / Sidebar ===== -->
+<!-- ===== Header / Sidebar ===== -->
     <header class="site-header"></header>
     <!-- Mobile Menu Button -->
     <button class="btn-open" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav"
@@ -172,16 +169,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
     <script>
-        window.addEventListener('load', () => {
-            const bar = document.querySelector('.loading-bar');
-            if (bar) {
-                bar.classList.add('done');
-                setTimeout(() => {
-                    bar.style.display = 'none';
-                }, 500);
-            }
-        });
-
         function handleQuickNav() {
             const quickNav = document.querySelector('.mobile-quick-nav');
             const menuBtn = document.querySelector('.btn-open');
