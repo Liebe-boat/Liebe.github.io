@@ -826,11 +826,14 @@ h1,h2,h3,.site-title h1 {
 
 .mobile-quick-nav a {
     padding: 0.35rem 0.75rem;
-    border-radius: 8px;
-    background: #e4e2f7;
+    border-radius: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,0 L45,0 L45,30 L100,30 L100,100 L0,100 Z' fill='rgba(228,226,247,0.9)' stroke='rgba(119,89,132,0.38)' stroke-width='2' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     color: var(--nav-color);
     text-decoration: none;
-    border: 1px solid rgba(119,89,132,0.25);
     font-size: 0.95rem;
 }
 
