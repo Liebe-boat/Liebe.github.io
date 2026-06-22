@@ -825,7 +825,13 @@ h1,h2,h3,.site-title h1 {
 }
 
 .mobile-quick-nav a {
-    padding: 0.5rem 0.75rem 0.35rem;
+    width: 5rem;
+    height: 2.3rem;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
     border-radius: 0;
     border: none;
     background-color: transparent;
