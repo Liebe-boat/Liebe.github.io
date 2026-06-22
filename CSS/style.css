@@ -835,7 +835,7 @@ h1,h2,h3,.site-title h1 {
     border-radius: 0;
     border: none;
     background-color: transparent;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 95' preserveAspectRatio='none'%3E%3Cpath d='M10,93 Q1,93 1,83 L1,10 Q1,1 10,1 L40,1 Q48,1 48,14 L85,14 Q99,14 99,28 L99,79 Q99,93 85,93 Z' fill='rgba(228,226,247,0.9)' stroke='rgba(119,89,132,0.38)' stroke-width='2' vector-effect='non-scaling-stroke'/%3E%3Cline x1='1.5' y1='14' x2='48' y2='14' stroke='rgba(119,89,132,0.28)' stroke-width='1.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 95' preserveAspectRatio='none'%3E%3Cpath d='M10,93 Q1,93 1,83 L1,10 Q1,1 10,1 L40,1 Q48,1 48,13 L85,13 Q99,13 99,27 L99,79 Q99,93 85,93 Z' fill='rgba(228,226,247,0.9)' stroke='rgba(119,89,132,0.38)' stroke-width='2' vector-effect='non-scaling-stroke'/%3E%3Cline x1='1.5' y1='13' x2='48' y2='13' stroke='rgba(119,89,132,0.28)' stroke-width='1.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: var(--nav-color);
