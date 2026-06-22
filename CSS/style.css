@@ -70,8 +70,9 @@ html, body {
 }
 html {
     scrollbar-width: thin;
-    scrollbar-color: #aba5bd #e4e2f7; 
+    scrollbar-color: #aba5bd #e4e2f7;
     overflow-y: overlay;
+    background-color: #e4e2f7;
 }
 
 body {
