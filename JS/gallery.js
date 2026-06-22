@@ -56,20 +56,22 @@ document.addEventListener("DOMContentLoaded", function () {
         return;
       }
   
-      images.forEach(item => {
+      images.forEach((item, index) => {
         const captionLines = [
           item.caption || "",
           `${item.year || "（年份待填）"} / ${item.size || "（尺寸待填）"}`
         ];
         const fullCaption = captionLines.join("<br>");
+        const thumb = item.src.replace("image/", "image/thumb/");
+        const loading = index < 6 ? "eager" : "lazy";
+        const priority = index < 3 ? ' fetchpriority="high"' : (index < 6 ? ' fetchpriority="low"' : "");
 
         const col = document.createElement("div");
         col.className = "col-sm-6 col-lg-4";
         col.innerHTML = `
                 <a href="${item.src}" data-fancybox="gallery" data-caption="${fullCaption}">
-                    <img src="${item.src}" alt="${item.alt}" class="img-fluid">
+                    <img src="${thumb}" alt="${item.alt}" class="img-fluid" loading="${loading}"${priority}>
                 </a>
-
         `;
         container.appendChild(col);
       });
