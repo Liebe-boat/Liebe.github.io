@@ -66,7 +66,7 @@ html, body {
     width: 100%;
     margin: 0;
     padding: 0;
-
+    touch-action: manipulation;
 }
 html {
     scrollbar-width: thin;
@@ -189,8 +189,6 @@ h1,h2,h3,.site-title h1 {
         rgba(220, 211, 242, 0.20) 91%,
         transparent 100%
     );
-    backdrop-filter: blur(2px) saturate(1.03);
-    -webkit-backdrop-filter: blur(2px) saturate(1.03);
     -webkit-mask-image: linear-gradient(
         90deg,
         #000 0%,
@@ -289,8 +287,6 @@ h1,h2,h3,.site-title h1 {
 
 .sidebar .lang-switcher button {
     background-color: rgba(208, 200, 228, 0.9);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
 }
 
 .nav-link,
@@ -544,8 +540,6 @@ h1,h2,h3,.site-title h1 {
         rgba(240, 238, 252, 0.08) 88%,
         transparent 100%
     );
-    backdrop-filter: blur(2px) saturate(1.03);
-    -webkit-backdrop-filter: blur(2px) saturate(1.03);
     -webkit-mask-image:
         linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 6%, #000 16%, #000 100%),
         linear-gradient(to top, #000 0%, #000 38%, rgba(0,0,0,0.7) 62%, rgba(0,0,0,0.3) 82%, transparent 100%);

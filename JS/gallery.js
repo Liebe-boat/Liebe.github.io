@@ -86,17 +86,17 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       });
 
-      // Prefetch originals in background after render
-      const prefetch = () => {
-        images.forEach(item => {
-          const img = new Image();
-          img.src = item.src;
-        });
+      // Prefetch originals sequentially in background
+      const prefetchSeq = (i = 0) => {
+        if (i >= images.length) return;
+        const img = new Image();
+        img.onload = img.onerror = () => prefetchSeq(i + 1);
+        img.src = images[i].src;
       };
       if ("requestIdleCallback" in window) {
-        requestIdleCallback(prefetch, { timeout: 3000 });
+        requestIdleCallback(() => prefetchSeq(), { timeout: 5000 });
       } else {
-        setTimeout(prefetch, 1000);
+        setTimeout(prefetchSeq, 2000);
       }
     }
   
