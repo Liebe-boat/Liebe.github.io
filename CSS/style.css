@@ -838,13 +838,13 @@ h1,h2,h3,.site-title h1 {
 }
 
 .mobile-topbar .title {
-    font-size: 1.68rem;
+    font-size: 1.85rem;
     margin: 0;
 }
 
 .mobile-topbar .subtitle {
     margin: 0;
-    font-size: 1.0rem;
+    font-size: 1.1rem;
 }
 
 .mobile-lang-switcher {
@@ -1113,6 +1113,11 @@ h1,h2,h3,.site-title h1 {
     body::before {
         background-image: url(../image/Primitive_Lifebg.webp);
     }
+}
+
+/* ========= Fancybox ========= */
+.fancybox__backdrop {
+    background: rgba(42, 36, 52, 0.96) !important;
 }
 
 /* Background drift — subtle floating motion */
