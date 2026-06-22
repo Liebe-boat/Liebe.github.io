@@ -835,7 +835,7 @@ h1,h2,h3,.site-title h1 {
     border-radius: 0;
     border: none;
     background-color: transparent;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 95' preserveAspectRatio='none'%3E%3Cpath d='M13,93 Q1,93 1,80 L1,14 Q1,1 14,1 L38,1 Q47,1 47,13 L49,22 Q50,24 52,24 L86,24 Q99,24 99,37 L99,80 Q99,93 86,93 Z' fill='rgba(228,226,247,0.9)' stroke='rgba(119,89,132,0.38)' stroke-width='2' vector-effect='non-scaling-stroke'/%3E%3Cline x1='1.5' y1='24' x2='50' y2='24' stroke='rgba(119,89,132,0.28)' stroke-width='1.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 95' preserveAspectRatio='none'%3E%3Cpath d='M14,93 Q1,93 1,79 L1,15 Q1,1 15,1 L40,1 Q53,1 53,24 L85,24 Q99,24 99,38 L99,79 Q99,93 85,93 Z' fill='rgba(228,226,247,0.9)' stroke='rgba(119,89,132,0.38)' stroke-width='2' vector-effect='non-scaling-stroke'/%3E%3Cline x1='1.5' y1='24' x2='53' y2='24' stroke='rgba(119,89,132,0.28)' stroke-width='1.5' vector-effect='non-scaling-stroke'/%3E%3C/svg%3E");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: var(--nav-color);
