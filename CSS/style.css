@@ -632,13 +632,17 @@ h1,h2,h3,.site-title h1 {
 
 
 /* ========= About Page ========= */
-.about-hero p,
-.about-hero h2,
-.about-extra h3,
-.timeline-year,
-.timeline-text,
-.footer-sns,
-.footer-copy {
+.lang-en .about-hero p,
+.lang-en .about-hero h2,
+.lang-en .about-extra h3,
+.lang-en .timeline-year,
+.lang-en .timeline-text,
+.lang-en .footer-sns,
+.lang-en .footer-copy {
+    font-family: "Special Elite", "Cabin Sketch", system-ui;
+}
+
+.timeline-year {
     font-family: "Special Elite", "Cabin Sketch", system-ui;
 }
 
