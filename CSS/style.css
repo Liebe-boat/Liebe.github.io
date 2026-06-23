@@ -547,11 +547,11 @@ h1,h2,h3,.site-title h1 {
         transparent 100%
     );
     -webkit-mask-image:
-        linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 6%, #000 16%, #000 100%),
+        linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 6%, #000 16%, #000 84%, rgba(0,0,0,0.4) 94%, transparent 100%),
         linear-gradient(to top, #000 0%, #000 38%, rgba(0,0,0,0.7) 62%, rgba(0,0,0,0.3) 82%, transparent 100%);
     -webkit-mask-composite: source-in;
     mask-image:
-        linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 6%, #000 16%, #000 100%),
+        linear-gradient(to right, transparent 0%, rgba(0,0,0,0.4) 6%, #000 16%, #000 84%, rgba(0,0,0,0.4) 94%, transparent 100%),
         linear-gradient(to top, #000 0%, #000 38%, rgba(0,0,0,0.7) 62%, rgba(0,0,0,0.3) 82%, transparent 100%);
     mask-composite: intersect;
 }
