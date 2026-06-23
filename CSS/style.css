@@ -75,9 +75,10 @@ html, body {
 html {
     scrollbar-width: thin;
     scrollbar-color: #aba5bd #e4e2f7;
-    overflow-y: auto;
+    overflow-y: scroll;
     background-color: #e4e2f7;
     overscroll-behavior-y: none;
+    scrollbar-gutter: stable;
 }
 
 body {
