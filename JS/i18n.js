@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     "timeline_2023": "2023  Graduation Exhibition, Xiamen University",
                     "timeline_2024_morning": "2024  “Morning Glow”",
                     "timeline_2024_voorpret": "2024  “voorpret”, Unicom Plaza Sagamihara, Sagamihara",
-                    "timeline_2024_ritto": "2024  “立冬”"
+                    “timeline_2024_ritto”: “2024  \”Beginning of Winter\””
                 }
             },
             ja: {
