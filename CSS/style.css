@@ -647,12 +647,12 @@ h1,h2,h3,.site-title h1 {
 }
 
 .about-page {
-    margin-left: calc(260px + (100vw - 260px) * 0.07);
+    margin-left: calc(260px + (100vw - 260px) * 0.05);
     padding: 3rem 2rem 4rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    max-width: calc((100vw - 260px) * 0.93);
+    max-width: calc((100vw - 260px) * 0.95);
     box-sizing: border-box;
 }
 
