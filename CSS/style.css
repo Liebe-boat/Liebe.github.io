@@ -78,7 +78,6 @@ html {
     overflow-y: auto;
     background-color: #e4e2f7;
     overscroll-behavior-y: none;
-    scrollbar-gutter: stable;
 }
 
 body {
