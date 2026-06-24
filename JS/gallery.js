@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/a dream.webp", alt: "a dream", caption: "a dream", year: "2025", size: "227 x 250mm" },
         { src: "image/眠い.webp", alt: "眠い", caption: "眠い", year: "2025", size: "150 x 950mm" },
         { src: "image/絡まる.webp", alt: "karamaru", caption: "絡まる", year: "2023", size: "250 x 250mm" },
-        { src: "image/seimei.webp", alt: "seimei", caption: "生命は叫び", year: "2023 ", size: "250 x 250mm" },
+        { src: "image/seimei.webp", alt: "seimei", caption: "生命は叫び", year: "2023", size: "250 x 250mm" },
         { src: "image/鳴き.webp", alt: "naki", caption: "鳴き", year: "2023", size: "250 x 250mm" },
         { src: "image/寂寞的夜晚.webp", alt: "night", caption: "寂しい夜", year: "2023", size: "185 x 131mm" },
         { src: "image/夜间飞行.webp", alt: "fly", caption: "夜間飛行", year: "2023", size: "185 x 131mm" },
@@ -114,9 +114,27 @@ document.addEventListener("DOMContentLoaded", function () {
         { src: "image/蹌踉.webp", alt: "yume", caption: "蹌踉", year: "2023", size: "250 x 250mm" },
         { src: "image/ゆらゆら.webp", alt: "ゆらゆら", caption: "ゆらゆら", year: "2023", size: "250 x 250mm" },
         { src: "image/夢を覆す.webp", alt: "夢を覆す", caption: "夢を覆す", year: "2023", size: "400 x 300mm" },
-        { src: "image/gulang.webp", alt:"Voice of Gulang",caption:"Voice of Gulang", year: "2024", size: " "},
+        { src: "image/gulang.webp", alt: "Voice of Gulang", caption: "Voice of Gulang", year: "2024", size: " " },
         { src: "image/vague.webp", alt: "vague", caption: "vague", year: "2024", size: "273 x 190mm" },
-        { src: "image/木の言語.webp", alt: "木の言語", caption: "木の言語", year: "2024", size: "227 x 158mm" }
+        { src: "image/木の言語.webp", alt: "木の言語", caption: "木の言語", year: "2024", size: "227 x 158mm" },
+        { src: "image/歯のダンス.webp", alt: "歯のダンス", caption: "歯のダンス", year: "2024", size: "227 x 158mm" },
+        { src: "image/古着.webp", alt: "古着", caption: "古着", year: "2025", size: "70 x 100mm" },
+        { src: "image/一本の樹.webp", alt: "一本の樹", caption: "一本の樹", year: "2024", size: "185 x 131mm" },
+        { src: "image/夕燒.webp", alt: "夕燒", caption: "夕燒", year: "2023", size: "185 x 131mm" },
+        { src: "image/所沢の出口.webp", alt: "所沢の出口", caption: "所沢の出口", year: "2023", size: "185 x 131mm" },
+        { src: "image/Primitive_Life.webp", alt: "Primitive_Life", caption: "Primitive Life", year: "2021", size: "changeable" },
+        { src: "image/Primitive Life2.webp", alt: "Primitive Life2", caption: "Primitive Life2", year: "2021", size: "changeable" },
+        { src: "image/tori.webp", alt: "tori", caption: "鳥", year: "2024", size: "148 x 103mm" },
+        { src: "image/tori2.webp", alt: "tori2", caption: "鳥2", year: "2022", size: "148 x 103mm" },
+        { src: "image/toritachi.webp", alt: "toritachi", caption: "鳥たち", year: "2024", size: "changeable" },
+        { src: "image/nazo.webp", alt: "nazo", caption: "謎", year: "2023", size: " " },
+        { src: "image/mokuhan.webp", alt: "mokuhan", caption: "逃げてる親知らず", year: "", size: "227 x 158mm" },
+        { src: "image/torino.webp", alt: "torino", caption: "鳥の眺望", year: "2024", size: " " },
+        { src: "image/朝の海、廈門Early_Morning_Sea_In_Amoy,2022.webp", alt: "朝の海", caption: "朝の海", year: "2022", size: " " },
+        { src: "image/婺源の夕暮れ.webp", alt: "婺源の夕暮れ", caption: "婺源の夕暮れ", year: "2022", size: " " },
+        { src: "image/梨の妖精.webp", alt: "梨の妖精", caption: "梨の妖精", year: "2024", size: "changeable" },
+        { src: "image/xiangsi.webp", alt: "相思鳥", caption: "相思鳥", year: "2022", size: "changeable" },
+        { src: "image/黒い太陽.webp", alt: "黒い太陽", caption: "黒い太陽", year: "2024", size: "227 x 158mm" }
     ];
     renderGallery(initialImages);
   
