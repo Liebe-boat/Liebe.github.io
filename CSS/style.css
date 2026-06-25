@@ -26,6 +26,32 @@
     font-style: normal;
 }
   
+/* ========= Custom Cursor ========= */
+* {
+    cursor: none !important;
+}
+
+#custom-cursor {
+    position: fixed;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(170, 130, 200, 0.28);
+    border: 1.5px solid rgba(160, 110, 200, 0.55);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.08s ease, width 0.15s ease, height 0.15s ease, background 0.15s ease;
+    z-index: 99999;
+    mix-blend-mode: multiply;
+    backdrop-filter: blur(1px);
+}
+
+#custom-cursor.hover {
+    width: 40px;
+    height: 40px;
+    background: rgba(150, 100, 200, 0.18);
+}
+
 :root {
     --title-color: #211623;
     /* Dark brown for title */

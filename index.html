@@ -210,6 +210,25 @@
     
     <!-- Gellery JS -->
     <script src="./JS/gallery.js"></script>
+
+    <!-- Custom Cursor -->
+    <div id="custom-cursor"></div>
+    <script>
+        (function () {
+            const cursor = document.getElementById('custom-cursor');
+            document.addEventListener('mousemove', e => {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            });
+            document.addEventListener('mouseover', e => {
+                if (e.target.closest('a, button, [data-fancybox]')) {
+                    cursor.classList.add('hover');
+                } else {
+                    cursor.classList.remove('hover');
+                }
+            });
+        })();
+    </script>
 </body>
 
 </html>
