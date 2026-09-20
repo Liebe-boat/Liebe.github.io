@@ -757,7 +757,7 @@ h1,h2,h3,.site-title h1 {
         rgba(234, 232, 250, 0.14) 88%,
         transparent 100%
     );
-    padding: 0.9rem 1rem 1.4rem;
+    padding: 0.9rem 1rem 1.47rem;
     z-index: 115;
     box-shadow: none;
     position: relative;
@@ -803,13 +803,13 @@ h1,h2,h3,.site-title h1 {
 }
 
 .mobile-topbar .title {
-    font-size: 1.85rem;
+    font-size: 1.94rem;
     margin: 0;
 }
 
 .mobile-topbar .subtitle {
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.155rem;
 }
 
 .mobile-lang-switcher {
