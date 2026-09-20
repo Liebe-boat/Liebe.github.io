@@ -76,13 +76,21 @@ document.addEventListener("DOMContentLoaded", function () {
         container.appendChild(col);
       });
   
+      const isMobile = window.matchMedia("(max-width: 768px)").matches;
+
       Fancybox.bind("[data-fancybox]", {
         Toolbar: {
-          display: {
-            left: ["infobar"],
-            middle: ["zoomIn", "zoomOut", "toggle1to1", "rotateCCW", "rotateCW", "flipX", "flipY"],
-            right: ["slideshow", "thumbs", "close"]
-          }
+          display: isMobile
+            ? {
+                left: [],
+                middle: ["zoomIn", "zoomOut"],
+                right: ["close"]
+              }
+            : {
+                left: ["infobar"],
+                middle: ["zoomIn", "zoomOut", "toggle1to1", "rotateCCW", "rotateCW", "flipX", "flipY"],
+                right: ["slideshow", "thumbs", "close"]
+              }
         }
       });
 
