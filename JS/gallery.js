@@ -83,8 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
           display: isMobile
             ? {
                 left: [],
-                middle: ["zoomIn", "zoomOut"],
-                right: ["close"]
+                middle: [],
+                right: ["zoomIn", "zoomOut", "close"]
               }
             : {
                 left: ["infobar"],
