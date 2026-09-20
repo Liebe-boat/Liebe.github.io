@@ -1,3 +1,11 @@
+/* ========= Disable long-press highlight/callout on touch ========= */
+img, a {
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
 /* ========= Font Definitions ========= */
 /* Cabin Sketch font classes */
 .cabin-sketch-regular {
